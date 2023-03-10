@@ -1,0 +1,16 @@
+{
+    "name": "wiremock",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "start": "concurrently -p none \"node watcher.js\" \"npx wiremock --root-dir /mocks\""
+    },
+    "dependencies": {
+      "chokidar": "^3.5.3",
+      "axios": "^1.3.4",
+      "chalk": "^4.1.2",
+      "wiremock": "^2.35.0",
+      "concurrently": "^7.6.0"
+    }
+  }
+  
